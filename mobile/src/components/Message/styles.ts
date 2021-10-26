@@ -4,21 +4,27 @@ import { COLORS, FONTS } from '../../theme'
 export const styles = StyleSheet.create({
   container: {
     width: '100%',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    paddingHorizontal: 20
+    marginBottom: 36,
   },
 
-  logoutButton: {
+  message: {
+    fontSize: 15,
+    fontFamily: FONTS.REGULAR,
+    color: COLORS.WHITE,
+    lineHeight: 20,
+    marginBottom: 12
+  },
+
+  footer: {
+    width: '100%',
     flexDirection: 'row',
     alignItems: 'center',
   },
-  
-  logoutText: {
+
+  userName: {
     fontSize:15,
     fontFamily: FONTS.REGULAR,
     color: COLORS.WHITE,
-    marginRight: 20
+    marginLeft: 16,
   }
 })
