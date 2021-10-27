@@ -8,7 +8,7 @@ import { MotiView } from 'moti'
 import { styles } from './styles'
 
 export type MessageProps = {
-    id: string
+    id: number
     text: string
     user: {
         name: string

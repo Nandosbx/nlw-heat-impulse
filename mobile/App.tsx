@@ -8,7 +8,7 @@ import { StatusBar } from 'expo-status-bar'
 
 import AppLoading from 'expo-app-loading'
 
-import { AuthProvider } from './src/hooks/Auth'
+import { AuthProvider } from './src/hooks/auth'
 import { Home } from './src/screens/Home'
 
 export default function App() {
