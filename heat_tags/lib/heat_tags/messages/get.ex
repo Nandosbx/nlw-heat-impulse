@@ -5,7 +5,7 @@ defmodule HeatTags.Messages.Get do
 
   def today_messages do
     today = Date.utc_today()
-    query = from(message in Message, there: type(message.inserted_at, :date) == ^today)
+    query = from(message in Message, where: type(message.inserted_at, :date) == ^today)
 
     Repo.all(query)
   end
